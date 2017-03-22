@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C68BDF8D1E821FB800C3E643 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68BDF8C1E821FB800C3E643 /* AppDelegate.swift */; };
+		C68BDF921E821FB800C3E643 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68BDF901E821FB800C3E643 /* Main.storyboard */; };
+		C68BDF941E821FB800C3E643 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C68BDF931E821FB800C3E643 /* Assets.xcassets */; };
+		C68BDF971E821FB800C3E643 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68BDF951E821FB800C3E643 /* LaunchScreen.storyboard */; };
+		C68BDFA11E82203400C3E643 /* BeerMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68BDFA01E82203400C3E643 /* BeerMeViewController.swift */; };
+		C68BDFA31E82204200C3E643 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68BDFA21E82204200C3E643 /* MapViewController.swift */; };
+		C68BDFA51E82206100C3E643 /* BeerLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68BDFA41E82206100C3E643 /* BeerLocation.swift */; };
+		E0C99ECF38252C1A2868741A /* Pods_BeerMe_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9453DD148B62E34FD3D54FD /* Pods_BeerMe_.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25D8E0607AF03B7ADA184CDD /* Pods-BeerMe!.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeerMe!.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeerMe!/Pods-BeerMe!.debug.xcconfig"; sourceTree = "<group>"; };
+		8350F901F2CB67C31D2F4AD2 /* Pods-BeerMe!.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeerMe!.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeerMe!/Pods-BeerMe!.release.xcconfig"; sourceTree = "<group>"; };
+		A9453DD148B62E34FD3D54FD /* Pods_BeerMe_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeerMe_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68BDF891E821FB800C3E643 /* BeerMe!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BeerMe!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68BDF8C1E821FB800C3E643 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C68BDF911E821FB800C3E643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C68BDF931E821FB800C3E643 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C68BDF961E821FB800C3E643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C68BDF981E821FB800C3E643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C68BDFA01E82203400C3E643 /* BeerMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerMeViewController.swift; sourceTree = "<group>"; };
+		C68BDFA21E82204200C3E643 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C68BDFA41E82206100C3E643 /* BeerLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerLocation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C68BDF861E821FB800C3E643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0C99ECF38252C1A2868741A /* Pods_BeerMe_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8267828CF95489BDE0AD9D69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9453DD148B62E34FD3D54FD /* Pods_BeerMe_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C68BDF801E821FB800C3E643 = {
+			isa = PBXGroup;
+			children = (
+				C68BDF8B1E821FB800C3E643 /* BeerMe! */,
+				C68BDF8A1E821FB800C3E643 /* Products */,
+				D42B87710E8A5A4A89F03549 /* Pods */,
+				8267828CF95489BDE0AD9D69 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C68BDF8A1E821FB800C3E643 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C68BDF891E821FB800C3E643 /* BeerMe!.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C68BDF8B1E821FB800C3E643 /* BeerMe! */ = {
+			isa = PBXGroup;
+			children = (
+				C68BDFA41E82206100C3E643 /* BeerLocation.swift */,
+				C68BDF9E1E821FC300C3E643 /* ViewControllers */,
+				C68BDF9F1E821FD100C3E643 /* Images */,
+				C68BDF8C1E821FB800C3E643 /* AppDelegate.swift */,
+				C68BDF901E821FB800C3E643 /* Main.storyboard */,
+				C68BDF931E821FB800C3E643 /* Assets.xcassets */,
+				C68BDF951E821FB800C3E643 /* LaunchScreen.storyboard */,
+				C68BDF981E821FB800C3E643 /* Info.plist */,
+			);
+			path = "BeerMe!";
+			sourceTree = "<group>";
+		};
+		C68BDF9E1E821FC300C3E643 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C68BDFA01E82203400C3E643 /* BeerMeViewController.swift */,
+				C68BDFA21E82204200C3E643 /* MapViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C68BDF9F1E821FD100C3E643 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		D42B87710E8A5A4A89F03549 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25D8E0607AF03B7ADA184CDD /* Pods-BeerMe!.debug.xcconfig */,
+				8350F901F2CB67C31D2F4AD2 /* Pods-BeerMe!.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C68BDF881E821FB800C3E643 /* BeerMe! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C68BDF9B1E821FB800C3E643 /* Build configuration list for PBXNativeTarget "BeerMe!" */;
+			buildPhases = (
+				92994BA78A9C8782AD368561 /* [CP] Check Pods Manifest.lock */,
+				C68BDF851E821FB800C3E643 /* Sources */,
+				C68BDF861E821FB800C3E643 /* Frameworks */,
+				C68BDF871E821FB800C3E643 /* Resources */,
+				3096BDD5CF2EBE9C24C882AD /* [CP] Embed Pods Frameworks */,
+				35AE87F01F040C0EFAA8CEC4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BeerMe!";
+			productName = "BeerMe!";
+			productReference = C68BDF891E821FB800C3E643 /* BeerMe!.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C68BDF811E821FB800C3E643 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Hayden Goldman";
+				TargetAttributes = {
+					C68BDF881E821FB800C3E643 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5UN8LHXK2J;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C68BDF841E821FB800C3E643 /* Build configuration list for PBXProject "BeerMe!" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C68BDF801E821FB800C3E643;
+			productRefGroup = C68BDF8A1E821FB800C3E643 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C68BDF881E821FB800C3E643 /* BeerMe! */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C68BDF871E821FB800C3E643 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68BDF971E821FB800C3E643 /* LaunchScreen.storyboard in Resources */,
+				C68BDF941E821FB800C3E643 /* Assets.xcassets in Resources */,
+				C68BDF921E821FB800C3E643 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3096BDD5CF2EBE9C24C882AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeerMe!/Pods-BeerMe!-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35AE87F01F040C0EFAA8CEC4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeerMe!/Pods-BeerMe!-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92994BA78A9C8782AD368561 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C68BDF851E821FB800C3E643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68BDFA51E82206100C3E643 /* BeerLocation.swift in Sources */,
+				C68BDFA11E82203400C3E643 /* BeerMeViewController.swift in Sources */,
+				C68BDFA31E82204200C3E643 /* MapViewController.swift in Sources */,
+				C68BDF8D1E821FB800C3E643 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C68BDF901E821FB800C3E643 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C68BDF911E821FB800C3E643 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C68BDF951E821FB800C3E643 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C68BDF961E821FB800C3E643 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C68BDF991E821FB800C3E643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C68BDF9A1E821FB800C3E643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C68BDF9C1E821FB800C3E643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25D8E0607AF03B7ADA184CDD /* Pods-BeerMe!.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5UN8LHXK2J;
+				INFOPLIST_FILE = "BeerMe!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haydengoldman.BeerMe-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C68BDF9D1E821FB800C3E643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8350F901F2CB67C31D2F4AD2 /* Pods-BeerMe!.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5UN8LHXK2J;
+				INFOPLIST_FILE = "BeerMe!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haydengoldman.BeerMe-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C68BDF841E821FB800C3E643 /* Build configuration list for PBXProject "BeerMe!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C68BDF991E821FB800C3E643 /* Debug */,
+				C68BDF9A1E821FB800C3E643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C68BDF9B1E821FB800C3E643 /* Build configuration list for PBXNativeTarget "BeerMe!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C68BDF9C1E821FB800C3E643 /* Debug */,
+				C68BDF9D1E821FB800C3E643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C68BDF811E821FB800C3E643 /* Project object */;
+}
