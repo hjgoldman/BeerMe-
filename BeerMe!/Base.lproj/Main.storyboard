@@ -21,20 +21,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="e9H-Qd-fZX">
-                                <rect key="frame" x="161" y="155" width="20" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </activityIndicatorView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d7X-KM-gkf">
-                                <rect key="frame" x="148" y="318" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d7X-KM-gkf">
+                                <rect key="frame" x="96.5" y="243" width="182" height="181"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="181" id="0Dt-NZ-6nP"/>
+                                    <constraint firstAttribute="width" constant="182" id="FoT-Ge-MUg"/>
+                                </constraints>
+                                <state key="normal" image="beer_me.png"/>
                                 <connections>
                                     <action selector="getBeerButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="108-fV-tH7"/>
                                 </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="e9H-Qd-fZX">
+                                <rect key="frame" x="169" y="315" width="37" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="Ce8-hq-hB9"/>
+                                    <constraint firstAttribute="width" constant="37" id="wub-ag-QVZ"/>
+                                </constraints>
+                                <color key="color" red="0.014250438660383224" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.84081774950027466" green="0.95450705289840698" blue="0.83335632085800171" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="e9H-Qd-fZX" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3zX-Wm-q0k"/>
+                            <constraint firstItem="d7X-KM-gkf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Uc3-mW-dJs"/>
+                            <constraint firstItem="e9H-Qd-fZX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ceM-kf-8zg"/>
+                            <constraint firstItem="d7X-KM-gkf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lRP-Gg-iXh"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="indicatorView" destination="e9H-Qd-fZX" id="GPq-31-32v"/>
@@ -43,6 +56,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
         </scene>
         <!--Map View Controller-->
         <scene sceneID="eSU-wI-MhJ">
@@ -80,4 +94,7 @@
             <point key="canvasLocation" x="1158" y="137"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="beer_me.png" width="640" height="640"/>
+    </resources>
 </document>

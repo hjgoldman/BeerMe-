@@ -14,6 +14,8 @@
 		C68BDFA11E82203400C3E643 /* BeerMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68BDFA01E82203400C3E643 /* BeerMeViewController.swift */; };
 		C68BDFA31E82204200C3E643 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68BDFA21E82204200C3E643 /* MapViewController.swift */; };
 		C68BDFA51E82206100C3E643 /* BeerLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68BDFA41E82206100C3E643 /* BeerLocation.swift */; };
+		C68BDFEE1E8308C100C3E643 /* beer_annotaion.png in Resources */ = {isa = PBXBuildFile; fileRef = C68BDFEC1E8308C100C3E643 /* beer_annotaion.png */; };
+		C68BDFEF1E8308C100C3E643 /* beer_me.png in Resources */ = {isa = PBXBuildFile; fileRef = C68BDFED1E8308C100C3E643 /* beer_me.png */; };
 		E0C99ECF38252C1A2868741A /* Pods_BeerMe_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9453DD148B62E34FD3D54FD /* Pods_BeerMe_.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +32,8 @@
 		C68BDFA01E82203400C3E643 /* BeerMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerMeViewController.swift; sourceTree = "<group>"; };
 		C68BDFA21E82204200C3E643 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		C68BDFA41E82206100C3E643 /* BeerLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerLocation.swift; sourceTree = "<group>"; };
+		C68BDFEC1E8308C100C3E643 /* beer_annotaion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beer_annotaion.png; sourceTree = "<group>"; };
+		C68BDFED1E8308C100C3E643 /* beer_me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beer_me.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		C68BDF9F1E821FD100C3E643 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				C68BDFEC1E8308C100C3E643 /* beer_annotaion.png */,
+				C68BDFED1E8308C100C3E643 /* beer_me.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -174,8 +180,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C68BDF971E821FB800C3E643 /* LaunchScreen.storyboard in Resources */,
+				C68BDFEE1E8308C100C3E643 /* beer_annotaion.png in Resources */,
 				C68BDF941E821FB800C3E643 /* Assets.xcassets in Resources */,
 				C68BDF921E821FB800C3E643 /* Main.storyboard in Resources */,
+				C68BDFEF1E8308C100C3E643 /* beer_me.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

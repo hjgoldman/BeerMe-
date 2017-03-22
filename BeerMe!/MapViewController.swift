@@ -37,13 +37,13 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         }
         
         let annotationView = MKAnnotationView(annotation: annotation, reuseIdentifier: "BeerAnnotation")
-        annotationView.frame = CGRect(x: 0, y: 0, width: 25, height: 30)
+        annotationView.frame = CGRect(x: 0, y: 0, width: 18, height: 43)
         annotationView.canShowCallout = true
         annotationView.rightCalloutAccessoryView = UIButton.init(type: .infoDark)
         
-        let beerImage = UIImage(named: "beer_annotation.png")
+        let beerImage = UIImage(named: "beer_annotaion.png")
         let beerImageView = UIImageView(image: beerImage)
-        beerImageView.frame = CGRect(x: 0, y: 0, width: 25, height: 30)
+        beerImageView.frame = CGRect(x: 0, y: 0, width: 18, height: 43)
         
         
         annotationView.addSubview(beerImageView)
